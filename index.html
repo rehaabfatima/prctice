@@ -1,0 +1,22 @@
+
+<html>
+    <head>
+        <title>JS In Detail</title>
+    </head>
+    <body>
+        <h1>JS in Details</h1>
+        <p id="search_result"></p>
+        <p id="search_position"></p>
+        <p id="convert_result"></p>
+        <script>
+           var str="hello how are doing i am fine too" ;
+           var searchtext=str.search("fine");
+           var txt=str.replace("how are" , "how are you");
+           var x =50;
+           var y = 40;
+           document.getElementById("search_result").innerHTML= searchtext ;
+           document.getElementById("search_position").innerHTML=txt;
+           document.getElementById("convert_result").innerHTML=String(x) +String(y) ;
+        </script>
+    </body>
+</html>
